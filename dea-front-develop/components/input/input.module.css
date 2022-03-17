@@ -1,0 +1,49 @@
+/* .radioInput {
+  appearance: none;
+  height: theme("spacing['8']");
+  width: theme("spacing['8']");
+  border-radius: 50%;
+  padding: 0;
+  display: inline-block;
+  background-color: theme("colors.white");
+  border-color: theme("colors.gray.dark");
+  border-width: theme("spacing[0.5]");
+}
+
+.radioInput:checked {
+  appearance: none;
+  height: theme("spacing['8']");
+  width: theme("spacing['8']");
+  border-radius: 50%;
+  padding: 0;
+  display: inline-block;
+  background-color: theme("colors.red.dark");
+  border-color: theme("colors.gray.dark");
+  border-width: theme("spacing[0.5]");
+}
+*/
+@layer components {
+  .inputHolder {
+    @apply relative;
+  }
+
+  .leftIcon {
+    @apply absolute left-2 top-4;
+  }
+
+  .rightIcon {
+    @apply absolute right-2 top-4;
+  }
+
+  .radioInput {
+    @apply appearance-none h-8 w-8 rounded-full bg-white border-gray-dark border-2 inline-block p-0;
+  }
+
+  .radioInput:checked {
+    @apply appearance-none h-8 w-8 rounded-full bg-red-dark border-gray-dark border-2 inline-block p-0;
+  }
+
+  .accentColor {
+    accent-color: theme(colors.red.dark);
+  }
+}

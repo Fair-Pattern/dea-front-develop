@@ -1,0 +1,6 @@
+
+ @layer components {
+    .link {
+        @apply underline text-red-600 hover:text-red-800 
+     }
+  }

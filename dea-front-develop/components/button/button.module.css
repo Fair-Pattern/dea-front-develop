@@ -1,0 +1,25 @@
+@layer components {
+  .buttonHolder {
+    position: relative;
+  }
+
+  .buttonHolder::before {
+    content: "";
+    left: 10px;
+    position: absolute;
+    width: 20px;
+    top: 0;
+    bottom: 0;
+    background: var(--bg-before-image) no-repeat center / contain;
+  }
+
+  .buttonHolder::after {
+    content: "";
+    right: 10px;
+    position: absolute;
+    width: 20px;
+    top: 0;
+    bottom: 0;
+    background: var(--bg-after-image) no-repeat center / contain white;
+  }
+}

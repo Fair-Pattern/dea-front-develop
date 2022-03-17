@@ -1,0 +1,38 @@
+.tooltip--right {
+  left: -3px;
+  transform: rotate(45deg);
+}
+
+.tooltip--top {
+  transform: rotate(45deg);
+  top: 27px;
+  left: 100px;
+}
+
+.tooltip--bottom {
+  transform: rotate(45deg);
+  top: 27px;
+  left: 100px;
+}
+
+.tooltipholder--top {
+  margin-left: -40px;
+  margin-bottom: 60px;
+  color: var(--currentColor);
+}
+
+.tooltipholder--right {
+  margin-left: 60px;
+}
+
+.tooltipholder--bottom {
+  margin-left: -40px;
+}
+
+.tooltip-pre {
+  font-family: SFProText;
+}
+
+.tooltip-pre--singleline {
+  white-space: nowrap;
+}
